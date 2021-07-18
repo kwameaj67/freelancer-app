@@ -22,3 +22,4 @@ export default function App() {
     );
   }
 }
+// A transactional app for creatives to connect clients and businesses to freelancers and also independent talented professionals 
