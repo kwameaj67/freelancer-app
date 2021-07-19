@@ -1,4 +1,3 @@
-import { Ionicons } from '@expo/vector-icons';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import * as React from 'react';
@@ -14,8 +13,13 @@ export default function useCachedResources() {
 
         // Load fonts
         await Font.loadAsync({
-          ...Ionicons.font,
           'space-mono': require('../assets/fonts/SpaceMono-Regular.ttf'),
+          // 'black': require('../assets/fonts/TTNormsPro-Black.woff'),
+          // 'ExtraBold': require('../assets/fonts/TTNormsPro-ExtraBold.woff'),
+          // 'Bold': require('../assets/fonts/TTNormsPro-Bold.woff'),
+          // 'Medium': require('../assets/fonts/TTNormsPro-Medium.woff'),
+          // 'Regular': require('../assets/fonts/TTNormsPro-Regular.woff'),
+         
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service
