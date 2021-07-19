@@ -14,11 +14,11 @@ export default function useCachedResources() {
         // Load fonts
         await Font.loadAsync({
           'space-mono': require('../assets/fonts/SpaceMono-Regular.ttf'),
-          // 'black': require('../assets/fonts/TTNormsPro-Black.woff'),
-          // 'ExtraBold': require('../assets/fonts/TTNormsPro-ExtraBold.woff'),
-          // 'Bold': require('../assets/fonts/TTNormsPro-Bold.woff'),
-          // 'Medium': require('../assets/fonts/TTNormsPro-Medium.woff'),
-          // 'Regular': require('../assets/fonts/TTNormsPro-Regular.woff'),
+          'Heavy': require('../assets/fonts/Gilroy-Heavy.ttf'),
+          'Bold': require('../assets/fonts/Gilroy-Bold.ttf'),
+          'Medium': require('../assets/fonts/Gilroy-Medium.ttf'),
+          'Regular': require('../assets/fonts/Gilroy-Regular.ttf'),
+          'Light': require('../assets/fonts/Gilroy-Light.ttf'),
          
         });
       } catch (e) {
