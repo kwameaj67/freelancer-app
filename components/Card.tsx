@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, StyleSheet, Text, Platform } from 'react-native'
+import { View, StyleSheet, Text, Platform,Image } from 'react-native'
 import { Feather, FontAwesome5 } from '@expo/vector-icons';
 import Colors from '../constants/Colors';
 
@@ -11,7 +11,9 @@ const Card = () => {
                 <FontAwesome5 name="ellipsis-v" size={16} color="black" />
             </View>
             <View style={styles.profileContainer}>
-                <View style={styles.avatar}></View>
+                <View>
+                    <Image source={require('../assets/images/profile.webp')} style={styles.avatar}/>
+                </View>
                 <Text style={styles.name}>Hira Riaz</Text>
                 <Text style={styles.role}>UX/UI Designer</Text>
             </View>
@@ -72,12 +74,16 @@ const styles = StyleSheet.create({
         marginVertical: 10
     },
     name: {
-        marginVertical: 5,
+        marginVertical: 8,
         fontSize: 28,
         fontWeight: "bold",
+        color:Colors.dark.blue,
+        fontFamily:'Bold'
     },
     role: {
-        fontSize: 14,
+        fontSize: 16,
+        fontFamily:'Medium',
+        color:Colors.dark.grey,
     },
     worksContainer: {
         marginVertical: 60,
@@ -95,15 +101,16 @@ const styles = StyleSheet.create({
         height: 50,
         backgroundColor: Colors.dark.grey,
         opacity: 0.4
-
     },
     price: {
         fontSize: 20,
-        fontWeight: '500',
         color: Colors.dark.blue,
-        marginBottom: 10
+        marginBottom: 10,
+        fontFamily:'Medium',
     },
     title: {
-        fontSize: 14
+        fontSize: 16,
+        fontFamily:'Medium',
+        opacity:0.7
     }
 })
