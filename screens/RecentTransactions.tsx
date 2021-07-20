@@ -46,7 +46,7 @@ const RecentTransactions = () => {
                 </View>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity style={styles.button}  activeOpacity={0.9}>
-                        <Text style={styles.buttonText}>Login</Text>
+                        <Text style={styles.buttonText}>See Details</Text>
                     </TouchableOpacity>
                 </View>
             </View>
