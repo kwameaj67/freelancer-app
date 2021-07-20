@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { View, StyleSheet, Text, Platform,Image } from 'react-native'
-import { Feather, FontAwesome5 } from '@expo/vector-icons';
+import { Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import Colors from '../constants/Colors';
 
 const Card = () => {
     return (
         <View style={styles.card}>
             <View style={styles.headerContainer}>
-                <Feather name="menu" size={20} color="black" />
+                <Ionicons name="reorder-two-outline" size={20} color="black" />
                 <FontAwesome5 name="ellipsis-v" size={16} color="black" />
             </View>
             <View style={styles.profileContainer}>
