@@ -46,12 +46,14 @@ const styles = StyleSheet.create({
   headingRowContainer: {
     justifyContent: 'space-between',
     alignItems: 'center',
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginTop:12,
+
   },
   headingTextContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   heading: {
     fontSize: 24,
@@ -67,10 +69,9 @@ const styles = StyleSheet.create({
     backgroundColor:'red',
     top:-5,
     left:-6,
-    
   },
   date:{
-    fontSize:16,
+    fontSize:14,
     color:Colors.dark.blue,
     fontFamily:'Medium',
   }
