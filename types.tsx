@@ -4,6 +4,7 @@
  */
 export type AutheticationStackParamList = {
   Login:undefined,
+  RecentTransaction:undefined,
 }
 export type RootStackParamList = {
   Root: undefined;
