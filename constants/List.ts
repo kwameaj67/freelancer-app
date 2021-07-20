@@ -28,9 +28,33 @@ export const data = [
     },
     {
         id:4,
-        status:"Receive",
-        msg:"Receiving money from cousin",
-        price:`$${1000}`,
+        status:"Payment",
+        msg:"Payment for fees of cousin",
+        price:`$${2000}`,
         arrow:"arrowdown"
     },
+]
+
+export const category = [
+    {
+        id:1,
+        name:"All",
+    },
+    {
+        id:2,
+        name:"Income",
+    },
+    {
+        id:3,
+        name:"Expense",
+    },
+    {
+        id:4,
+        name:"Taxes",
+    },
+    {
+        id:5,
+        name:"Food",
+    },
+
 ]
