@@ -2,7 +2,12 @@
 An app for creatives to connect clients and businesses to freelancers and also independent talented professionals
 
 # Installation
+This app was built using [React Native](https://reactnative.dev/) with [Expo](https://docs.expo.io/)
 
+Follow these steps to run the app locally;
+- Clone this repo
+- Run npm install or yarn in your terminal
+- Run the app by using npm start or yarn start in your terminal
 
 Screenshots of the app is below
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2021-07-20 at 01 25 54](https://user-images.githubusercontent.com/42741527/126248317-97c1beca-e00f-4290-aced-3a42bce12346.png)
