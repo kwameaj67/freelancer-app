@@ -35,7 +35,10 @@ const RecentTransactions = () => {
             <Image source={require('../assets/images/profile.webp')} style={styles.avatar}/>
         )
     }
-    const FriendImage = ({imgStyle}) => {
+    type friendImage = { 
+        imgStyle: {}
+    }
+    const FriendImage:React.FC<friendImage> = ({imgStyle}) => {
         return(
             <View style={[styles.friendAvatarContainer,imgStyle]}>
                 <Image source={require('../assets/images/profile.webp')} style={styles.friendAvatar}/> 
